@@ -169,10 +169,10 @@
 									<div class="widget-content">
 
 										<div class="various-content">
-											<p><strong>Gdor. Virasoro</strong> Corrientes, Ar</p>
-											<p><a href=""><strong>hello@littlegreatstudio.com</strong></a></p>
-											<p><a href=""><strong>Skype</strong></a> littlegreatstudio</p>
-											<p><strong>Movil</strong> +54 3756 610566</p>
+											<strong>Gdor. Virasoro</strong> Corrientes, Ar<br>
+											<a href=""><strong>hello@littlegreatstudio.com</strong></a><br>
+											<a href=""><strong>Skype</strong></a> littlegreatstudio<br>
+											<strong>Movil</strong> +54 3756 610566</p>
 										</div>
 
 									</div>
