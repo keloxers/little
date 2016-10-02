@@ -9,107 +9,114 @@ return array(
 	*/
 
 
-	'articulos'	=> 'Articulos',
+	'Wecreategames'	=> 'We create games',
+	'For2D3D'	=> 'For 2D or 3D platforms. Optimized and beautiful with one only click you can t stop playing.',
 
-	'flashsuccess'	=> 'Exito',
 
-	'flasherror'	=> 'Error',
 
-	'flashwarning'	=> 'advertencia',
+		'articulos'	=> 'Articulos',
 
-	'flashinfo'		=> 'FYI',
+		'flashsuccess'	=> 'Exito',
 
-	'register'		=> 'Registrarse',
+		'flasherror'	=> 'Error',
 
-	'login'			=> "Login",
+		'flashwarning'	=> 'advertencia',
 
-	'logout'		=> "Logout",
+		'flashinfo'		=> 'FYI',
 
-	'home'			=> "Home",
+		'register'		=> 'Registrarse',
 
-	'users'			=> "Usuarios",
+		'login'			=> "Login",
 
-	'user'			=> "Usuario",
+		'logout'		=> "Logout",
 
-	'groups'		=> "Grupos",
+		'home'			=> "Home",
 
-	'helloworld'	=> "Hello World!",
+		'users'			=> "Usuarios",
 
-	'description'	=> "Nueva y agil plataforma educativa.",
+		'user'			=> "Usuario",
 
-	'loginstatus'	=> "Uds ha ingresado al sistema.",
+		'groups'		=> "Grupos",
 
-	'sessiondata'	=> "Session Data",
+		'helloworld'	=> "Hello World!",
 
-	'currentusers'	=> "Usuarios actuales",
+		'description'	=> "Nueva y agil plataforma educativa.",
 
-	'options'		=> 'Opciones',
+		'loginstatus'	=> "Uds ha ingresado al sistema.",
 
-	'status'		=> "Estado",
+		'sessiondata'	=> "Session Data",
 
-	'active'		=> "Activo",
+		'currentusers'	=> "Usuarios actuales",
 
-	'notactive'		=> "No Activo",
+		'options'		=> 'Opciones',
 
-	'suspended'		=> "Suspendido",
+		'status'		=> "Estado",
 
-	'banned'		=> "Expulsado",
+		'active'		=> "Activo",
 
-	'actionedit'	=> "Editar",
+		'notactive'		=> "No Activo",
 
-	'actionsuspend'	=> "Suspender",
+		'suspended'		=> "Suspendido",
 
-	'actionunsuspend' => "Activar",
+		'banned'		=> "Expulsado",
 
-	'actionban'		=> "Expulsar",
+		'actionedit'	=> "Editar",
 
-	'actionunban'	=> "Admitir",
+		'actionsuspend'	=> "Suspender",
 
-	'actiondelete'	=> "Borrar",
+		'actionunsuspend' => "Activar",
 
-	'name'	=> "VirasoroVirtual.com",
+		'actionban'		=> "Expulsar",
 
-	'register_new'	=> "Registrarse",
+		'actionunban'	=> "Admitir",
 
-	'welcome'	=> "Bienvenido",
+		'actiondelete'	=> "Borrar",
 
-	'to_activate_your_account'	=> "Para activar su cuenta",
+		'name'	=> "VirasoroVirtual.com",
 
-	'or_point_your_browser_to_this_address'	=> "O dirija su navegador a esta dirección",
+		'register_new'	=> "Registrarse",
 
-	'thank_you'	=> "Gracias",
+		'welcome'	=> "Bienvenido",
 
-	'the_admin_team'	=> "El equipo de administración",
+		'to_activate_your_account'	=> "Para activar su cuenta",
 
-	'click_here'	=> "Haga clic aquí",
+		'or_point_your_browser_to_this_address'	=> "O dirija su navegador a esta dirección",
 
-	'password_reset'	=> "Restablecer contraseña",
+		'thank_you'	=> "Gracias",
 
-	'to_reset_your_password'	=> "Para restablecer su contraseña",
+		'the_admin_team'	=> "El equipo de administración",
 
-	'if_you_did_not_request_a_password_reset'	=> "Si no has solicitado un restablecimiento de contraseña, puede ignorar este email - nada va a cambiar.",
+		'click_here'	=> "Haga clic aquí",
 
-	'profile'	=> "Perfil",
+		'password_reset'	=> "Restablecer contraseña",
 
-	'created'	=> "creado",
+		'to_reset_your_password'	=> "Para restablecer su contraseña",
 
-	'modified'	=> "modificado",
+		'if_you_did_not_request_a_password_reset'	=> "Si no has solicitado un restablecimiento de contraseña, puede ignorar este email - nada va a cambiar.",
 
-	'listwith'	=> "Listado de",
+		'profile'	=> "Perfil",
 
-	'minutes'	=> "minutos",
+		'created'	=> "creado",
 
-	'title'	=> "Bienvenido",
+		'modified'	=> "modificado",
 
-	''	=> "",
+		'listwith'	=> "Listado de",
 
-	''	=> "",
+		'minutes'	=> "minutos",
 
-	''	=> "",
+		'title'	=> "Bienvenido",
 
-	''	=> "",
+		''	=> "",
 
-	''	=> "",
+		''	=> "",
+
+		''	=> "",
+
+		''	=> "",
+
+		''	=> "",
+
+
 
 
 );

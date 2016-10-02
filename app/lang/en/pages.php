@@ -9,105 +9,119 @@ return array(
 	*/
 
 
-	'flashsuccess'	=> 'Success',
+	'Wecreategames'	=> 'We create games',
+	'For2D3D'	=> 'For 2D or 3D platforms. Optimized and beautiful with one only click you can t stop playing.',
 
-	'flasherror'	=> 'Error',
+	'categories'	=> 'Categories',
+	'lastpost'	=> 'Last Post',
+	'programming'	=> 'Programming',
+	'art'	=> 'Art',
+	'gamedesign'	=> 'Game design',
 
-	'flashwarning'	=> 'Warning',
 
-	'flashinfo'		=> 'FYI',
 
-	'register'		=> 'Register',
+		'articulos'	=> 'Articulos',
 
-	'login'			=> "Login",
+		'flashsuccess'	=> 'Exito',
 
-	'logout'		=> "Logout",
+		'flasherror'	=> 'Error',
 
-	'home'			=> "Home",
+		'flashwarning'	=> 'advertencia',
 
-	'users'			=> "Users",
+		'flashinfo'		=> 'FYI',
 
-	'user'			=> "User",
+		'register'		=> 'Register',
 
-	'groups'		=> "Groups",
+		'login'			=> "Login",
 
-	'helloworld'	=> "Hello World!",
+		'logout'		=> "Logout",
 
-	'description'	=> "This is an example of <a href=\"https://github.com/laravel/laravel\">Laravel 4.1</a> running with <a href=\"https://github.com/cartalyst/sentry\">Sentry 2.0</a> and <a href=\"http://getbootstrap.com/\">Bootstrap 3.0</a>.",
+		'home'			=> "Home",
 
-	'loginstatus'	=> "You are currently logged in.",
+		'users'			=> "Users",
 
-	'sessiondata'	=> "Session Data",
+		'user'			=> "User",
 
-	'currentusers'	=> "Current Users",
+		'groups'		=> "Groups",
 
-	'options'		=> 'Options',
+		'helloworld'	=> "Hello World!",
 
-	'status'		=> "Status",
+		'description'	=> "Nueva y agil plataforma educativa.",
 
-	'active'		=> "Active",
+		'loginstatus'	=> "Uds ha ingresado al sistema.",
 
-	'notactive'		=> "Not Active",
+		'sessiondata'	=> "Session Data",
 
-	'suspended'		=> "Suspended",
+		'currentusers'	=> "Usuarios actuales",
 
-	'banned'		=> "Banned",
+		'options'		=> 'Opciones',
 
-	'actionedit'	=> "Edit",
+		'status'		=> "Estado",
 
-	'actionsuspend'	=> "Suspend",
+		'active'		=> "Activo",
 
-	'actionunsuspend' => "Un-Suspend",
+		'notactive'		=> "No Activo",
 
-	'actionban'		=> "Ban",
+		'suspended'		=> "Suspendido",
 
-	'actionunban'	=> "Un-Ban",
+		'banned'		=> "Expulsado",
 
-	'actiondelete'	=> "Delete",
+		'actionedit'	=> "Editar",
 
-	'name'	=> "Codex",
+		'actionsuspend'	=> "Suspender",
 
-	''	=> "",
+		'actionunsuspend' => "Activar",
 
-	''	=> "",
+		'actionban'		=> "Expulsar",
 
-	''	=> "",
+		'actionunban'	=> "Admitir",
 
-	''	=> "",
+		'actiondelete'	=> "Borrar",
 
-	''	=> "",
+		'name'	=> "VirasoroVirtual.com",
 
-	''	=> "",
+		'register_new'	=> "Registrarse",
 
-	''	=> "",
+		'welcome'	=> "Bienvenido",
 
-	''	=> "",
+		'to_activate_your_account'	=> "Para activar su cuenta",
 
-	''	=> "",
+		'or_point_your_browser_to_this_address'	=> "O dirija su navegador a esta dirección",
 
-	''	=> "",
+		'thank_you'	=> "Gracias",
 
-	''	=> "",
+		'the_admin_team'	=> "El equipo de administración",
 
-	''	=> "",
+		'click_here'	=> "Haga clic aquí",
 
-	''	=> "",
+		'password_reset'	=> "Restablecer contraseña",
 
-	''	=> "",
+		'to_reset_your_password'	=> "Para restablecer su contraseña",
 
-	''	=> "",
+		'if_you_did_not_request_a_password_reset'	=> "Si no has solicitado un restablecimiento de contraseña, puede ignorar este email - nada va a cambiar.",
 
-	''	=> "",
+		'profile'	=> "Perfil",
 
-	''	=> "",
+		'created'	=> "creado",
 
-	''	=> "",
+		'modified'	=> "modificado",
 
-	''	=> "",
+		'listwith'	=> "Listado de",
 
-	''	=> "",
+		'minutes'	=> "minutos",
 
-	''	=> "",
+		'title'	=> "Bienvenido",
+
+		''	=> "",
+
+		''	=> "",
+
+		''	=> "",
+
+		''	=> "",
+
+		''	=> "",
+
 
 
 );

@@ -10,7 +10,7 @@
 | and give it the Closure to execute when that URI is requested.
 |
 */
-App::setLocale('es');
+App::setLocale('en');
 
 // Session Routess
 Route::get('login',  array('as' => 'login', 'uses' => 'SessionController@create'));

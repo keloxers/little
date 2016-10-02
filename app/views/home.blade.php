@@ -15,12 +15,12 @@
 
 									<header class="section-header textalign-center">
 										<div class="container">
-											<h2>CREAMOS JUEGOS!</h2>
+											<h2>{{trans('pages.Wecreategames')}}</h2>
 										</div>
 									</header>
 
 									<div class="container">
-										<p class="textalign-center fontsize-medium max-width-800 margin-sides-auto">Para plataformas 2D o 3D. Son optimizado y bellos, con un solo clic no podras dejar de jugarlos.</p>
+										<p class="textalign-center fontsize-medium max-width-800 margin-sides-auto">{{trans('pages.For2D3D')}}</p>
 									</div>
 
 
@@ -168,7 +168,7 @@
 
 															<!-- SIDEBAR LINKS : begin -->
 															<div class="widget links-widget">
-																<h3 class="widget-title">Categorias</h3>
+																<h3 class="widget-title">{{trans('pages.categories')}}</h3>
 																<div class="widget-content">
 
 
@@ -192,7 +192,7 @@
 
 															<!-- BLOG WIDGET : begin -->
 															<div class="widget blog-widget">
-																<h3 class="widget-title">Ultimos Posts</h3>
+																<h3 class="widget-title">{{trans('pages.lastpost')}}</h3>
 																<div class="widget-content">
 
 
