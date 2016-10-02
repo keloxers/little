@@ -10,7 +10,7 @@ return array(
 
 
 	'Wecreategames'	=> 'We create games',
-	'For2D3D'	=> 'For 2D or 3D platforms. Optimized and beautiful with one only click you can t stop playing.',
+	'For2D3D'	=> "For 2D or 3D platforms. Optimized and beautiful with one only click you can't stop playing.",
 
 	'categories'	=> 'Categories',
 	'lastpost'	=> 'Last Post',
