@@ -15,6 +15,7 @@ return array(
 	'categories'	=> 'Categorias',
 	'lastpost'	=> 'Ultimas publicaciones',
 
+	'readmore'	=> 'LEER MAS',
 
 		'articulos'	=> 'Articulos',
 

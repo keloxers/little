@@ -74,7 +74,9 @@
 
 															<!-- ARTICLE IMAGE : begin -->
 															<div class="article-image">
+																@if ($archivos)
 																<a href="/articulos/show/{{ $articulo->url_seo }}"><img src="/uploads/big/{{ $archivos->archivo }}" alt=""></a>
+																@endif
 															</div>
 															<!-- ARTICLE IMAGE : end -->
 
@@ -95,15 +97,15 @@
 															<!-- ARTICLE FOOTER : begin -->
 															<footer class="article-footer">
 																<ul class="article-info">
-																	<li class="author">{{$articulo->users_id}}</li>
+																	<!-- <li class="author">{{$articulo->users_id}}</li> -->
 																	<!-- <li class="categories"><a href="#">Space</a>, <a href="#">Stars</a>, <a href="#">Travel</a></li> -->
-																	<li class="categories">{{$articulo->visitas}}</li>
+																	<li class="author">{{$articulo->visitas}}</li>
 																	@if (Sentry::check() && Sentry::getUser()->hasAccess('admin'))
-																		<li class="author"><a href="/articulos/{{$articulo->id}}/edit">Editar</a></li>
+																		<li class="categories"><a href="/articulos/{{$articulo->id}}/edit">Editar</a></li>
 																	@endif
 
 																</ul>
-																<p class="article-more"><a href="/articulos/show/{{ $articulo->url_seo }}" class="c-button m-outline">Leer más</a></p>
+																<p class="article-more"><a href="/articulos/show/{{ $articulo->url_seo }}" class="c-button m-outline">{{trans('pages.readmore')}}</a></p>
 															</footer>
 															<!-- ARTICLE FOOTER : end -->
 

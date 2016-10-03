@@ -113,6 +113,7 @@ public function ver()
 
 		$articulo->users_id = Sentry::getUser()->id;
 		$articulo->articulo = Input::get('articulo');
+		$articulo->lang = Input::get('lang');
 		$articulo->copete = Input::get('copete');
 		$articulo->texto = Input::get('texto');
 		$articulo->tipo = Input::get('tipo');
@@ -225,6 +226,7 @@ public function ver()
 
 
 		$articulo->articulo = Input::get('articulo');
+		$articulo->lang = Input::get('lang');
 		$articulo->categorias_id = Input::get('categorias_id');
 		$articulo->copete = Input::get('copete');
 		$articulo->tipo = Input::get('tipo');

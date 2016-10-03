@@ -1,122 +1,138 @@
 @extends('layouts.default')
-
 @section('content')
 
-
-
-
-<div id="page"><!-- - - - - - - - - - SECTION - - - - - - - - - -->
-<div class="pi-section-w pi-section-white piICheck piStylishSelect">
-	<div class="pi-section pi-padding-bottom-80">
-
-		<div class="pi-text-center pi-margin-bottom-60">
-			<h1 class="pi-uppercase pi-weight-700 pi-has-border pi-has-tall-border pi-has-short-border pi-margin-bottom-70">
-				Agregar Noticia
-			</h1>
-		</div>
-
-
-		<!-- Row -->
-		<div class="pi-row">
-
-			<!-- Col 6 -->
-			<div class="pi-col-xs-8">
-
-				<h4 class="pi-has-bg pi-weight-700 pi-uppercase pi-letter-spacing pi-margin-bottom-25">
-					Ingrese la nueva publicacion por favor
-				</h4>
-
-				<hr class="pi-divider-gap-10">
-
-				<!-- Forms -->
-				{{ Form::open(array('route' => 'articulos.store', 'class' => 'panel-body wrapper-lg')) }}
-
-					<!-- First name form -->
-					<div class="form-group">
-						<label for="titular">Titular</label>
-
-						<div class="pi-input-with-icon">
-							<div class="pi-input-icon"><i class="icon-pencil"></i></div>
-							{{ Form::text('articulo', '', array('class' => 'form-control', 'id' => 'articulo', 'placeholder' => 'Ingrese el titular')) }}
-						</div>
-					</div>
-					<!-- End first name form -->
-
-					<!-- Message -->
-					<div class="form-group">
-						<label for="copete">Copete</label>
-
-						<div class="pi-input-with-icon">
-							<div class="pi-input-icon"><i class="icon-pencil"></i></div>
-							<textarea class="form-control" id="copete" name="copete" placeholder="Copete" rows="4"></textarea>
-						</div>
-					</div>
-					<!-- End message form -->
-
-
-					<!-- Message -->
-					<div class="form-group">
-						<label for="articulo">Articulo</label>
-
-						<div class="pi-input-with-icon">
-							<div class="pi-input-icon"><i class="icon-pencil"></i></div>
-							<textarea class="form-control" id="texto" name="texto" placeholder="texto del articulo?" rows="16"></textarea>
-						</div>
-					</div>
-					<!-- End message form -->
-
-					<!-- Message -->
-					<div class="form-group">
-						<label for="exampleInputMessage-3">Tipo</label>
-
-							{{ Form::select('tipo', array('principal' => 'Principal', 'secundaria' => 'Secundaria'), 'principal', array('class' => 'form-control input-lg', 'id' =>'tipo')) }}
-
-					</div>
-					<!-- End message form -->
-
-
-					<!-- Message -->
-					<div class="form-group">
-						<label for="exampleInputMessage-3">Categoria</label>
-
-
-								{{ Form::select( 'categorias_id', Categoria::All()->
-										lists('categoria', 'id'), Input::get('categoria'), array( "placeholder" => "", 'class' => 'form-control input-lg')) }}
-
-					</div>
-					<!-- End message form -->
-
-					<!-- Message -->
-					<div class="form-group">
-						<label for="exampleInputMessage-3">Permitir comentarios</label>
-
-							{{ Form::select('comentarios', array('si' => 'Si', 'no' => 'No'), 'si', array('class' => 'form-control input-lg', 'id' =>'comentarios')) }}
-
-					</div>
-					<!-- End message form -->
-
-
-					<hr class="pi-divider-gap-10">
-
-					<!-- Submit button -->
-					<p>
-						<button type="submit" class="btn pi-btn-base pi-btn-big pi-uppercase pi-weight-700 pi-letter-spacing">
-							<i class="icon-check pi-icon-left"></i>Enviar noticia
-						</button>
-					</p>
-					<!-- End submit button -->
-
-				</form>
-				<!-- End forms -->
-
-			</div>
-			<!-- End col 6 -->
-
-
+<!-- PAGE HEADER : begin -->
+<div id="page-header">
+	<div class="container">
+		<h1>Crear Articulo</h1>
 	</div>
 </div>
-<!-- - - - - - - - - - END SECTION - - - - - - - - - -->
+<!-- PAGE HEADER : end -->
 
+
+
+<div class="container">
+	<div class="row">
+		<div class="col-md-8">
+
+
+
+
+
+				<!-- FORM SECTION : begin -->
+											<section>
+												<div class="container">
+
+
+													@if ($errors->first('articulo'))
+																	<p class="c-alert-message m-warning m-validation-error"><i class="ico fa fa-exclamation-circle">
+																	</i>{{ $errors->first('articulo') }}</p>
+													@endif
+													@if ($errors->first('copete'))
+																	<p class="c-alert-message m-warning m-validation-error"><i class="ico fa fa-exclamation-circle">
+																	</i>{{ $errors->first('copete') }}</p>
+													@endif
+													@if ($errors->first('articulo'))
+																	<p class="c-alert-message m-warning m-validation-error"><i class="ico fa fa-exclamation-circle">
+																	</i>{{ $errors->first('articulo') }}</p>
+													@endif
+
+
+													<!-- CONTACT FORM : begin -->
+
+														{{ Form::open(array('route' => 'articulos.store', 'id' => 'contact-form', 'class' => 'default-form')) }}
+														<input type="hidden" name="contact-form">
+
+														<!-- FORM VALIDATION ERROR MESSAGE : begin -->
+														<p class="c-alert-message m-warning m-validation-error" style="display: none;"><i class="ico fa fa-exclamation-circle"></i>Please fill in all required (*) fields.</p>
+														<!-- FORM VALIDATION ERROR MESSAGE : end -->
+
+														<!-- SENDING REQUEST ERROR MESSAGE : begin -->
+														<p class="c-alert-message m-warning m-request-error" style="display: none;"><i class="ico fa fa-exclamation-circle"></i>There was a connection problem. Try again later.</p>
+														<!-- SENDING REQUEST ERROR MESSAGE : end -->
+
+														<div class="row">
+															<div class="col-sm-4">
+
+																<!-- NAME FIELD : begin -->
+																<div class="form-field">
+																	<label for="contact-name">Titular <span>*</span></label>
+																	{{ Form::text('articulo', '', array('class' => 'm-required', 'id' => 'articulo', 'placeholder' => 'Ingrese el titular')) }}
+																</div>
+																<!-- NAME FIELD : end -->
+
+																<!-- EMAIL FIELD : begin -->
+																<div class="form-field">
+																	<label for="contact-email">Lang <span>*</span></label>
+																	{{ Form::select('lang', array('en' => 'en', 'es' => 'es'), 'en', array('id' =>'lang')) }}
+																</div>
+																<!-- EMAIL FIELD : end -->
+
+
+																<!-- EMAIL FIELD : begin -->
+																<div class="form-field">
+																	<label for="contact-email">Tipo <span>*</span></label>
+																	{{ Form::select('tipo', array('principal' => 'Principal', 'secundaria' => 'Secundaria'), 'principal', array('id' =>'tipo')) }}
+																</div>
+																<!-- EMAIL FIELD : end -->
+
+																<!-- PHONE FIELD : begin -->
+																<div class="form-field">
+																	<label for="contact-phone">Categoria</label>
+																	{{ Form::select( 'categorias_id', Categoria::All()->
+																			lists('categoria', 'id'), Input::get('categoria'), array( "placeholder" => "")) }}
+
+																</div>
+																<!-- PHONE FIELD : end -->
+
+
+															</div>
+															<div class="col-sm-8">
+
+
+																<!-- MESSAGE FIELD : begin -->
+																<div class="form-field">
+																	<label for="contact-message">Copete <span>*</span></label>
+																	{{ Form::textarea('copete', '', array('id' => 'copete', 'rows' => '12','placeholder' => 'Copete')) }}
+																</div>
+																<!-- MESSAGE FIELD : end -->
+
+
+																<!-- MESSAGE FIELD : begin -->
+																<div class="form-field">
+																	<label for="contact-message">Cuerpo <span>*</span></label>
+																	{{ Form::textarea('texto', '', array('id' => 'texto', 'rows' => '12','placeholder' => 'Cuerpo')) }}
+																</div>
+																<!-- MESSAGE FIELD : end -->
+
+																<!-- SUBMIT BUTTON : begin -->
+																<div class="form-field">
+																	<button type="submit" class="submit-btn c-button" type="submit">
+																		<i class="icon-check pi-icon-left"></i>Guardar
+																	</button>
+
+																</div>
+																<!-- SUBMIT BUTTON : end -->
+
+															</div>
+														</div>
+
+													</form>
+													<!-- CONTACT FORM : end -->
+
+												</div>
+											</section>
+											<!-- FORM SECTION : end -->
+
+
+										</div>
+									</div>
+								</div>
+
+
+
+
+@stop
 
 
 

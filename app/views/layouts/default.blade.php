@@ -265,7 +265,7 @@
 
 				<!-- SIDEBAR SOCIAL : begin -->
 				<ul class="sidebar-social">
-					<li><a href="https://twitter.com/LSVRthemes"><i class="fa fa-twitter"></i></a></li>
+					<li><a href="https://twitter.com/littegreatstudio"><i class="fa fa-twitter"></i></a></li>
 					<li><a href="#"><i class="fa fa-facebook"></i></a></li>
 					<li><a href="#"><i class="fa fa-pinterest"></i></a></li>
 					<li><a href="#"><i class="fa fa-dribbble"></i></a></li>
@@ -279,7 +279,7 @@
 
 					<!-- TWITTER WIDGET : begin -->
 					<div class="widget twitter-widget m-paginated" data-id="LSVRthemes" data-limit="3" data-interval="20000">
-						<h3 class="widget-title"><a href="https://twitter.com/LSVRthemes">@LSVRthemes</a></h3>
+						<h3 class="widget-title"><a href="https://twitter.com/litlegreatstudio">@lettegreatstudio</a></h3>
 						<div class="widget-content">
 
 							<div class="twitter-feed">
@@ -290,17 +290,6 @@
 					</div>
 					<!-- TWITTER WIDGET : end -->
 
-					<!-- TEXT WIDGET : begin -->
-					<div class="widget text-widget">
-						<div class="widget-content">
-
-							<div class="various-content">
-								<p>This portfolio HTML template can be purchased on <a href="http://themeforest.net/user/LSVRthemes/portfolio?ref=LSVRthemes">ThemeForest.net</a>.</p>
-							</div>
-
-						</div>
-					</div>
-					<!-- TEXT WIDGET : end -->
 
 				</div>
 				<!-- SIDEBAR WIDGETS : end -->

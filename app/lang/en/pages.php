@@ -15,6 +15,8 @@ return array(
 	'categories'	=> 'Categories',
 	'lastpost'	=> 'Last Post',
 
+	'readmore'	=> 'READ MORE',
+
 
 
 		'articulos'	=> 'Articulos',
