@@ -20,7 +20,7 @@ return array(
 
 	'seguinos_facebook'		=>	"https://www.facebook.com/littlegreat/",
 
-	'seguinos_twitter'		=>	"https://twitter.com/littlegreatar",
+	'seguinos_twitter'		=>	"https://twitter.com/LittleGreatAr",
 
 	'seguinos_googleplus'		=>	"",
 
