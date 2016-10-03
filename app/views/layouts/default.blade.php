@@ -277,18 +277,7 @@
 				<!-- SIDEBAR WIDGETS : begin -->
 				<div class="sidebar-widgets">
 
-					<!-- TWITTER WIDGET : begin -->
-					<div class="widget twitter-widget m-paginated" data-id="LSVRthemes" data-limit="3" data-interval="20000">
-						<h3 class="widget-title"><a href="{{trans('app.seguinos_twitter')}}">@LittlegreatS</a></h3>
-						<div class="widget-content">
-
-							<div class="twitter-feed">
-								<span class="c-loading-anim"><span></span></span>
-							</div>
-
-						</div>
-					</div>
-					<!-- TWITTER WIDGET : end -->
+					<a class="twitter-timeline" href="https://twitter.com/LittleGreatAr">Tweets by LittleGreatAr</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
 				</div>
