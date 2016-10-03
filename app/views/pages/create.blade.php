@@ -72,6 +72,14 @@
 
 																<!-- EMAIL FIELD : begin -->
 																<div class="form-field">
+																	<label for="contact-email">Lang <span>*</span></label>
+																	{{ Form::select('lang', array('en' => 'en', 'es' => 'es'), 'en', array('id' =>'lang')) }}
+																</div>
+																<!-- EMAIL FIELD : end -->
+
+
+																<!-- EMAIL FIELD : begin -->
+																<div class="form-field">
 																	<label for="contact-email">Activo <span>*</span></label>
 																	{{ Form::select('activo', array('si' => 'Si', 'no' => 'No'), 'si', array('id' =>'activo')) }}
 																</div>

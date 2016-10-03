@@ -10,7 +10,19 @@
 | and give it the Closure to execute when that URI is requested.
 |
 */
-App::setLocale('en');
+
+
+if(!Session::has('language')){
+	Session::put('language', 'en');
+}
+
+
+// Idioma
+Route::get( '/es', array('as' => 'articulos.index', 'uses' => 'ArticulosController@es'));
+Route::get( '/en', array('as' => 'articulos.index', 'uses' => 'ArticulosController@en'));
+
+
+App::setLocale(Session::get('language'));
 
 // Session Routess
 Route::get('login',  array('as' => 'login', 'uses' => 'SessionController@create'));

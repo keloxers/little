@@ -35,6 +35,9 @@
 														<th style="width: 25%;">
 															Titular
 														</th>
+														<th style="width: 25%;">
+															Lang
+														</th>
 														<th style="width: 40%;">
 															Copete
 														</th>
@@ -69,6 +72,7 @@
 
 														echo "<tr>";
 												    echo "<td>" . $articulo->articulo . "</td>";
+														echo "<td>" . $articulo->lang . "</td>";
 												    echo "<td>" . $texto . "</td>";
 												    echo "<td>" . $articulo->estado . "</td>";
 														echo "<td>" ;

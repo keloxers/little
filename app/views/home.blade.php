@@ -136,9 +136,11 @@
 														<?php
 
 															$categorias = DB::table('categorias')
+																								->where('lang', '=', Lang::locale())
 																								->orderBy('categoria', 'desc')->get();
 
 															$articulos_masvistos = DB::table('articulos')
+																								->where('lang', '=', Lang::locale())
 																								->where('estado', '=', 'publicado')
 																								->orderBy('visitas', 'desc')
 																								->orderBy('created_at', 'desc')

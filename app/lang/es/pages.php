@@ -9,9 +9,11 @@ return array(
 	*/
 
 
-	'Wecreategames'	=> 'We create games',
-	'For2D3D'	=> 'For 2D or 3D platforms. Optimized and beautiful with one only click you can t stop playing.',
+	'Wecreategames'	=> 'Nosotros creamos juegos y aplicaciones moviles',
+	'For2D3D'	=> 'Juegos en 2D or 3D. Optimizados y hermosos para que con un click no puedas dejar de usarlos.',
 
+	'categories'	=> 'Categorias',
+	'lastpost'	=> 'Ultimas publicaciones',
 
 
 		'articulos'	=> 'Articulos',

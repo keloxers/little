@@ -59,6 +59,7 @@ class PagesController extends BaseController {
 		$page = new Page;
 
 		$page->page = Input::get('page');
+		$page->lang = Input::get('lang');
 		$page->html = Input::get('html');
 		$page->url_seo = Input::get('url_seo');
 		$page->activo = Input::get('activo');
@@ -136,6 +137,7 @@ class PagesController extends BaseController {
 		}
 
 		$page->page = Input::get('page');
+		$page->lang = Input::get('lang');
 		$page->html = Input::get('html');
 		$page->url_seo = Input::get('url_seo');
 		$page->activo = Input::get('activo');

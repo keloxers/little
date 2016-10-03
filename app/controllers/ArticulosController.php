@@ -13,12 +13,46 @@ class ArticulosController extends BaseController {
 
 
 				$articulos = DB::table('articulos')
+													->where('lang', '=', Lang::locale())
 													->where('estado', '=', 'publicado')
 													->orderBy('id', 'desc')->paginate(16);
 
         return View::make('home', array('articulos' => $articulos));
 
 	}
+
+
+	public function es()
+	{
+
+				Session::put('language', 'es');
+				App::setLocale(Session::get('language'));
+
+				$articulos = DB::table('articulos')
+													->where('lang', '=', Lang::locale())
+													->where('estado', '=', 'publicado')
+													->orderBy('id', 'desc')->paginate(16);
+
+        return View::make('home', array('articulos' => $articulos));
+
+	}
+
+
+	public function en()
+	{
+
+				Session::put('language', 'en');
+				App::setLocale(Session::get('language'));
+
+				$articulos = DB::table('articulos')
+													->where('lang', '=', Lang::locale())
+													->where('estado', '=', 'publicado')
+													->orderBy('id', 'desc')->paginate(16);
+
+        return View::make('home', array('articulos' => $articulos));
+
+	}
+
 
 
 /**

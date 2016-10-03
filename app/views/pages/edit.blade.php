@@ -61,6 +61,11 @@
 																</div>
 																<!-- NAME FIELD : end -->
 
+																<div class="form-field">
+																	<label for="contact-email">Lang <span>*</span></label>
+																	{{ Form::select('lang', array('en' => 'en', 'es' => 'es'), $page->lang, array('id' =>'lang')) }}
+																</div>
+
 
 																<!-- EMAIL FIELD : begin -->
 																<div class="form-field">

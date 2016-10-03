@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
 	<head>
@@ -50,9 +49,12 @@
 							<ul>
 								<li><a href="/">Home</a></li>
 
+
+
 								<?php
 								$pagestops = DB::table('pages')
 																	->where('activo', '=', 'si')
+																	->where('lang', '=', Lang::locale())
 																	->where('padre', '=', '')
 																	->where('mostrar_menu', '=', 'si')
 																	->orderBy('page', 'asc')->get();
@@ -72,6 +74,7 @@
 										<?php
 												$pages = DB::table('pages')
 																					->where('activo', '=', 'si')
+																					->where('lang', '=', Lang::locale())
 																					->where('padre', '=', $pagestop->page)
 																					->where('mostrar_menu', '=', 'si')
 																					->orderBy('page', 'asc')->get();
@@ -110,6 +113,11 @@
 
 								@endif
 
+								@if (Lang::locale()=='en')
+									<li><a href="/es">Español</a></li>
+								@else
+									<li><a href="/en">English</a></li>
+								@endif
 
 
 
@@ -211,7 +219,7 @@
 							<!-- FOOTER MENU : begin -->
 							<nav class="footer-menu">
 								<ul>
-									<li><a href="index.html">Home</a></li>
+									<li><a href="/">Home</a></li>
 								</ul>
 							</nav>
 							<!-- FOOTER MENU : end -->
