@@ -22,7 +22,7 @@ return array(
 
 	'seguinos_twitter'		=>	"https://twitter.com/LittleGreatAr",
 
-	'seguinos_googleplus'		=>	"",
+	'seguinos_googleplus'		=>	"https://plus.google.com/100299094234845256273",
 
 	'seguinos_instagram'		=>	"https://www.instagram.com/littlegreatstudio/",
 

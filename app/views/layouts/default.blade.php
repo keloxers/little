@@ -268,7 +268,8 @@
 					<li><a href="{{trans('app.seguinos_twitter')}}"><i class="fa fa-twitter"></i></a></li>
 					<li><a href="{{trans('app.seguinos_facebook')}}"><i class="fa fa-facebook"></i></a></li>
 					<li><a href="{{trans('app.seguinos_instagram')}}"><i class="fa fa-instagram"></i></a></li>
-					<li><a href="{{trans('app.seguinos_twitter')}}"><i class="fa fa-youtube"></i></a></li>
+					<li><a href="{{trans('app.seguinos_googleplus')}}"><i class="fa fa-google"></i></a></li>
+					<li><a href="{{trans('app.seguinos_youtube')}}"><i class="fa fa-youtube"></i></a></li>
 				</ul>
 				<!-- SIDEBAR SOCIAL : end -->
 
